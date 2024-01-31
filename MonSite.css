@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0; 
+ }
+
+ . header{
+    width: 100%;
+    background-position: center;
+     background-size: cover;
+     position: relative;
+ }
+ .header li{
+    display: flex;
+    padding: 3% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1{
+    font-size: 50px;
+    color: blue;
+    text-align: center;
+}
+.header img{
+    width: 300px;
+}
+
+ .header li{
+    list-style: none;
+     display: inline-block;
+     position: relative;
+     left: 60%;
+ }
+ .header ul li a {
+    text-decoration: none;
+     width: 03vh;
+     height: 10px;
+     display: inline-block;
+     margin: auto;
+     overflow: cyan ;
+ }
+ .list h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: blue;
+ }
+.list p{
+    margin:10px;
+    padding: 10px;
+    font-size: 120%;
+}
+.list form{
+    margin:10px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
